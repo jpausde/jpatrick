@@ -1,11 +1,13 @@
-/*
-.mdl-layout--fixed-header{
-    overflow: hidden;
+/* header styles */
+
+.mdl-color--primary{
+	background-color: #ffffff;
 }
-*/
-/*
-.kint{
-    position:absolute;
-    top:70px;
+
+.mdl-color--primary a{
+	color: #000000;
 }
-*/
+
+.mdl-layout__drawer-button{
+	display: none;
+}
