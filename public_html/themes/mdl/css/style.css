@@ -70,6 +70,7 @@ img{
   background: #ffffff;
   color: #000;
   text-align: center;
+  border: 1px solid #000;
 }
 
 .scrolltop i{
