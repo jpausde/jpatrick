@@ -46,3 +46,33 @@ img{
 #block-sitebranding img{
 	width: 600px;
 }
+
+.scrolltop {
+  width: 56px;
+  height: 56px;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 999999999999999;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  /*text-indent: -99999px;*/
+  position: fixed;
+  bottom: -100px;
+  right: 25px;
+  cursor: pointer;
+  -webkit-transition: all .7s ease-in-out;
+  -moz-transition: all .7s ease-in-out;
+  -o-transition: all .7s ease-in-out;
+  -ms-transition: all .7s ease-in-out;
+  transition: all .7s ease-in-out;
+  overflow: auto;
+  background: #ffffff;
+  color: #000;
+  text-align: center;
+}
+
+.scrolltop i{
+  font-size: 30px;
+  margin: 12px 0;
+}
