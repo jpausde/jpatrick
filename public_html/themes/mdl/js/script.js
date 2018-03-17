@@ -13,7 +13,12 @@ window.addEventListener('load', function() {
   Drupal.behaviors.jpatrick =  {
     attach: function(context, settings) {
 
+    	console.log("drupal hit");
+
       $('.mdl-layout').scroll(function(){
+
+      	
+    	console.log($(this).scrollTop());
 
          if ($(this).scrollTop() == 0) {
             $('.scrolltop').css({bottom:"-100px"});
