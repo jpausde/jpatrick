@@ -13,11 +13,9 @@ window.addEventListener('load', function() {
   Drupal.behaviors.jpatrick =  {
     attach: function(context, settings) {
 
-    	console.log("drupal hit");
+      $('.mdl-layout__content').scroll(function(){
 
-      $('.mdl-layout').scroll(function(){
 
-      	
     	console.log($(this).scrollTop());
 
          if ($(this).scrollTop() == 0) {
@@ -37,7 +35,7 @@ window.addEventListener('load', function() {
       });
 
       $('.scrolltop').click(function(){
-          $('html, .mdl-layout').animate({scrollTop: '0px'}, 800);
+          $('html, .mdl-layout__content').animate({scrollTop: '0px'}, 800);
           return false;
       });
 
