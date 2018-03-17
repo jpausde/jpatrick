@@ -10,7 +10,7 @@ window.addEventListener('load', function() {
 
 (function ($) {
 
-  Drupal.behaviors.mdl =  {
+  Drupal.behaviors.jpatrick =  {
     attach: function(context, settings) {
 
       $('.mdl-layout').scroll(function(){
