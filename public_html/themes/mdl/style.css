@@ -11,3 +11,7 @@
 .mdl-layout__drawer-button{
 	display: none;
 }
+
+.mdl-layout__header-row img{
+	height: 64px;
+}
