@@ -13,5 +13,36 @@
 }
 
 .mdl-layout__header-row img{
-	height: 64px;
+	height: 60px;
+}
+
+.mdl-layout__header-row .mdl-navigation__link{
+	padding: 0 20px;
+}
+
+#block-signature{
+	position: fixed;
+    left: calc(50% - 136px);
+    display: none;
+}
+
+/* end header styles */
+
+/* body styles */
+
+img{
+	max-width: 100%;
+}
+
+.mdl-layout__content{
+	max-width: 1200px;
+	margin: auto;
+}
+
+#block-sitebranding{
+	text-align: center;
+}
+
+#block-sitebranding{
+	width: 600px;
 }
