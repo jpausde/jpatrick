@@ -1,13 +1,17 @@
 /* header styles */
 
 .mdl-color--primary{
-	background-color: #ffffff;
+	background-color: #ffffff !important;
 }
 
-.mdl-color--primary a{
+.mdl-layout__header-row .mdl-navigation__link{
 	color: #000000;
 }
 
 .mdl-layout__drawer-button{
 	display: none;
+}
+
+.mdl-layout__header-row img{
+	height: 64px;
 }
