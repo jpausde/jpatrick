@@ -118,8 +118,9 @@ h2{
     font-weight: bold;
 }
 
-.news .views-row{
-	margin-bottom: 20px;
+.news .views-row{    
+	margin-bottom: 40px;
+    overflow: auto;
 }
 
 .feed-icon{
