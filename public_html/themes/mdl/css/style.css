@@ -82,10 +82,24 @@ img{
 	margin: 20px 6px;
 }
 
-.mdl-layout-title{
+.mdl-layout-title,
+h2{
 	font-size: 26px;
     text-transform: uppercase;
     margin-bottom: 0;
+}
+
+.events .views-field-title{
+	font-size: 18px;
+    font-weight: bold;
+}
+
+.events .views-field-field-date-and-time{
+	color: #898989;
+}
+
+.events .views-row{
+	margin-bottom: 20px;
 }
 
 .feed-icon{
