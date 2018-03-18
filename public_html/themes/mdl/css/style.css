@@ -158,5 +158,22 @@ h2{
   margin: 12px 0;
 }
 
+.mdl-textfield{
+	display: block;
+}
+
+.mdl-textfield__labe{
+	font-size: 16px;
+}
+
+#edit-preview{
+	display: none;
+}
+
+#edit-submit{
+	background-color: #333;
+	margin-top: 20px;
+}
+
 /* end body styles */
 
