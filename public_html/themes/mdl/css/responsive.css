@@ -30,6 +30,10 @@
 
 @media (max-width: 853px) {
 
+  .news .views-field-field-image{
+    width: 50%;
+  }
+
 }
 
 @media (max-width: 655px) {
@@ -45,5 +49,11 @@
 }
 
 @media (max-width: 479px) {
+
+  .news .views-field-field-image{
+    width: 100%;
+    padding-right: 0;
+    margin-bottom: 10px
+  }
 
 }
