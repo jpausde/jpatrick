@@ -6,6 +6,7 @@
 
   .mdl-layout__drawer-button{
     display: block;
+    color: #000 !important;
   }
 
 }
