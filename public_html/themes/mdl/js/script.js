@@ -5,9 +5,6 @@
 
       $('.mdl-layout__content').scroll(function(){
 
-
-    	console.log($(this).scrollTop());
-
          if ($(this).scrollTop() == 0) {
             $('.scrolltop').css({bottom:"-100px"});
          }
