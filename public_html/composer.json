@@ -10,7 +10,8 @@
         "drupal/devel": "^1.2",
         "drupal/addtoany": "^1.9",
         "drupal/colorbox": "^1.4",
-        "drupal/contact_block": "^1.4"
+        "drupal/contact_block": "^1.4",
+        "drupal/recaptcha": "^2.3"
     },
     "replace": {
         "drupal/core": "^8.4"
