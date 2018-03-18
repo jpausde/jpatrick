@@ -52,6 +52,42 @@ img{
 	display: inline-block;
 }
 
+.collection .views-field-title{
+	position: absolute;
+    bottom: 0px;
+    padding: 20px;
+    opacity: 0.9;
+    width: calc(100% - 40px);
+    background: #333;
+    text-align: center;
+}
+
+.collection .views-field-title span{
+	line-height: 20px;
+    padding: 0 10px;
+    font-size: 18px;
+    font-weight: 700;
+    -webkit-box-decoration-break: clone;
+    -ms-box-decoration-break: clone;
+    -o-box-decoration-break: clone;
+    box-decoration-break: clone;
+    color: #fff;
+}
+
+.collection .views-row{
+	margin: 20px 6px;
+}
+
+.mdl-layout-title{
+	font-size: 26px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.feed-icon{
+	display: none;
+}
+
 .scrolltop {
   width: 56px;
   height: 56px;
