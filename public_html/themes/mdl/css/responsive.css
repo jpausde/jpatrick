@@ -17,6 +17,15 @@
 
 @media (max-width: 1024px) {
 
+  #block-signature{
+    position: relative;
+    display: none;
+  }
+
+  .mdl-layout__header-row img{
+    height: 52px;
+  }
+
 }
 
 @media (max-width: 853px) {
