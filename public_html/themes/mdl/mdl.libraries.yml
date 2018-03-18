@@ -42,6 +42,8 @@ mdltheme:
     js/script.js: {}
   dependencies:
     - mdl/mdl
+    - core/jquery
+    - core/drupal
 
 waterfall-panels:
   css:
