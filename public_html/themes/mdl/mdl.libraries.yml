@@ -37,6 +37,7 @@ mdltheme:
   css:
     theme:
       css/style.css: {}
+      css/responsive.css: {}
   js:
     js/script.js: {}
   dependencies:

@@ -17,7 +17,7 @@
 }
 
 .mdl-layout__header-row .mdl-navigation__link{
-	padding: 0 20px;
+	padding: 0 16px;
 }
 
 #block-signature{
@@ -77,3 +77,6 @@ img{
   font-size: 30px;
   margin: 12px 0;
 }
+
+/* end body styles */
+
