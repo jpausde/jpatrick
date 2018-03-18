@@ -32,6 +32,7 @@
 
 img{
 	max-width: 100%;
+	height: auto;
 }
 
 .mdl-layout__content .mdl-cell{
@@ -45,6 +46,10 @@ img{
 
 #block-sitebranding img{
 	width: 600px;
+}
+
+.mdl-cell--4-col{
+	display: inline-block;
 }
 
 .scrolltop {
