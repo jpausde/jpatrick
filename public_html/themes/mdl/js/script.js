@@ -15,10 +15,10 @@
            $('.scrolltop').css({bottom:"25px"});
          }
 
-         if ($(this).scrollTop() <= 220) {
+         if ($(this).scrollTop() <= 180) {
            $('#block-signature').css({display:"none"});
          }
-         else if($(this).scrollTop() > 220) {
+         else if($(this).scrollTop() > 180) {
            $('#block-signature').css({display:"block"});
          }
 
