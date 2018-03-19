@@ -182,5 +182,19 @@ h2{
 	background-color: #1a1a1d !important;
 }
 
+.mdl-snackbar__action{
+	color: #950740;
+}
+
+.mdl-button--accent.mdl-button--accent.mdl-button--raised, 
+.mdl-button--accent.mdl-button--accent.mdl-button--fab{
+	background-color: #950740;
+
+}
+
+.mdl-snackbar{
+	background-color: #4e4e50;
+}
+
 /* end body styles */
 
