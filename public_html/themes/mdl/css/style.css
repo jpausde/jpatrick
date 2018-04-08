@@ -90,6 +90,11 @@ img{
 	margin: 20px 6px;
 }
 
+.collection .views-field-field-logo{
+  position: absolute;
+  bottom: 0;
+}
+
 .mdl-layout-title,
 h2{
 	font-size: 26px;
